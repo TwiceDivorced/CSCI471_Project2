@@ -1,0 +1,8 @@
+# Ignore build junk
+CMakeFiles/
+cmake_install.cmake
+CMakeCache.txt
+*.o
+
+# Ignore the binaray
+rft-client
