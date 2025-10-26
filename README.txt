@@ -8,4 +8,4 @@ Course = CSCI471
 
 Nothing special for compilation required.  I tried only with `localhost` as the hostname
 and it seems to work well.  I have included a data file to test: the US constitution as a
-very simple HTML file.
+very simple HTML file.  I don't know my Isengard username, so I just use serhardt.
