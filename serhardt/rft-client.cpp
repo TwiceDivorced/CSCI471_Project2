@@ -122,6 +122,12 @@ int main(int argc, char *argv[])
                     TRACE << "Sent final EOF datagram with seqNum " << datagram.seqNum << ENDL;
 
                     allSent = true;
+                    // Make sure final packet is handled correctly
+                    if (base == nextSeqNum) {
+                        timer.setDuration(TIMEOUT_MS);
+                        timer.start();
+                    }
+                    nextSeqNum++;
                     break;
                 }
 
